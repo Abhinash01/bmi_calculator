@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}    
+
+body {
+    background: linear-gradient(to right top, #1f2440, #1d4ef0);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* space between box, result, and guide */
+    text-align: center;
+}
+
+
+
+
+
+.box {
+    background: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    color: #fff; 
+    
+  }
+
+  
+  .box button{
+    padding: 5px 30px;
+    margin-top: 45px;
+    border-radius: 5px;
+    border: none; 
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .box button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .box h2{
+    margin-bottom: 20px;
+    
+  }
+
+  input {
+    background: rgba(255, 255, 255, 0.15); /* Translucent white background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Soft border */
+    border-radius: 8px;
+    padding: 12px 15px;
+    width: 80%;
+    font-size: 16px;
+    color: #fff; /* White text */
+    text-align: center;
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle glow effect */
+    backdrop-filter: blur(8px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(8px);
+    transition: 0.5s;
+  }
+
+  input:focus {
+    border: 1px solid #4c4eaf; 
+    box-shadow: 0 4px 12px #4c4eaf;
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+  }
+
+  label {
+    display: block; /* Makes the label take full width */
+    margin-bottom: 08px; /* Adds space below the label */
+    font-size: 20px;
+    color: #fff; /* Ensure label text is visible */
+  }
+
+
+
+  .result{
+    color: white;
+  }
+
+  #weight-guide{
+    color: white;
+    
+  }
+
+  footer{
+    margin-bottom: 0px;
+  }
+  
+  footer img {
+    height: 40px;
+    margin: 15px;
+  }
+  
+
+  
